@@ -49,7 +49,7 @@ def hit?(num)
     display_card_total(num)
   else 
     invalid_command
-    prompt_user
+    hit?(num)
   end
   num
 end
