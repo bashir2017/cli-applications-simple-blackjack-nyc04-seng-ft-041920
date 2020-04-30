@@ -48,6 +48,7 @@ def hit?(num)
     num += new_deal
   else 
     invalid_command
+    prompt_user
   end
   num
 end
